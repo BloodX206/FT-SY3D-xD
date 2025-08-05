@@ -67,7 +67,7 @@ const {
   
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
-if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
+if(!config.SESSION_ID) return console.log('MAFIA-MD~HgRQWQDR#wQTOvl6kf1Sgdxi4hJyqc8iDgHzyt54RUFRkRVgA2Bo')
 const sessdata = config.SESSION_ID.replace("MAFIA-MD~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
